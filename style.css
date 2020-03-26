@@ -1,0 +1,45 @@
+.text1{
+  animation: blinkingText 6s infinite;
+  font-size: 100pt;
+}
+@keyframes blinkingText {
+  0% { color:red}
+  20% {color:orange}
+  40% {color:yellow}
+  60% {color:green}
+  80% {color:blue}
+  100% {color:purple}
+}
+
+.text2{
+  animation: blinkingText2 12s infinite;
+  color: black;
+  text-align: center;
+  font-size: 100pt;
+}
+
+@keyframes blinkingText2 {
+  0% { background:red}
+  20% {background:orange}
+  40% {background:yellow}
+  60% {background:green}
+  80% {background:blue}
+  100% {background:purple}
+}
+
+.text3{
+  font-size: 100pt;
+  animation: blinkingText1 6s infinite;
+  text-align: right;
+}
+
+@keyframes blinkingText1 {
+  0% { color:red}
+  20% {color:orange}
+  40% {color:yellow}
+  60% {color:green}
+  80% {color:blue}
+  100% {color:purple}
+
+}
+                                        }
